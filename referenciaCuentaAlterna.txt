@@ -1,0 +1,15 @@
+primero debes de clonar el repositorio:
+1 clonar repositorio usando el comando git clone + el link ssh:
+git clone git@github.com:RicardoColladoRothschild/claseArrays9.git
+
+2)Debes hacer un pull siempre, antes de cualquier push, por si ha habido alguna modificacion en el repositorio remoto, y asi evites los conflictos.
+git pull origin main
+
+3)ahora que ya hiciste el push, puedes crear un archivo nuevo, hazlo con tu nombre, puedes usar visual studio code, o el comando touch + nombre.txt por ejemplo
+agregale algo que quieras
+
+4) ahora vamos a hacer nuestro push
+git push origin main,
+puede ser que te pida tu token, recuerda, solo podras hacer el push si ya has sido agregado como colaborador, lo sabras si ya aceptastte la invitacion
+
+5)ahora puedes ir al repositorio y ver tu archivo
